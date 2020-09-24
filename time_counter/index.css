@@ -1,0 +1,35 @@
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    body {
+        background-image: url(https://images.unsplash.com/photo-1580522154071-c6ca47a859ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+        min-height: 90vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        color: rgb(169, 255, 9);
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .h1 {
+        font-weight: 400;
+    }
+    
+    .container {
+        display: flex;
+        color: rgb(0, 225, 255);
+        /* font-size: larger; */
+        /* margin: 0 2vh; */
+    }
+    
+    .op {
+        font-size: 4rem;
+        line-height: 1;
+        margin: 0 2rem;
+    }
+    
+    .x-el span {
+        font-size: large;
+        margin: 2rem;
+    }
