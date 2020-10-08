@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+* {
+    -webkit-user-select: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#body {
+    margin: 0px;
+    padding: 0px;
+    background: url("https://i.pinimg.com/originals/82/9e/1d/829e1d9f6758e0399cfaf4150cc83429.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: cursive;
+    color: white;
+    opacity: 0.9;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#para {
+    width: 80%;
+    font-size: large;
+    word-wrap: wrap;
+    box-shadow: 5px 5px 25px rgba(0, 190, 197, 0.5), -5px -5px 25px rgba(0, 190, 197, 0.5);
+    padding: 125px 30px 70px 30px;
+    border-radius: 10px;
+}
+
+#name {
+    position: absolute;
+    top: 60px;
+    text-shadow: 3px 3px 10px #00BFC5, -3px -3px 10px #00BFC5;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    display: block;
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    /*background:#ff001e;*/
+    background: #00BFC5;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 0px;
+    transform: 0.5s;
+    text-align: center;
+}
+
+a:hover {
+    background: #fff;
+    /* color:#ff001e;*/
+    color: #00BFC5;
+    /* border:1px solid #ff001e;*/
+    border: 1px solid #00BFC5;
+    opacity: 0.6;
+}
+
+#container2 {
+    width: 100%;
+}
+
+footer {
+    bottom: 0;
+    font-size: 13px;
+    border-top: 2px solid white;
+}
+
+#container2 #img2 {
+    margin-left: 290px;
+    width: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#container2 audio {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#happy {
+    font-family: cursive;
+    animation: happy_birthday 4s infinite;
+    text-shadow: 5px 5px 25px #00BFC5, -5px -5px 25px #00BFC5;
+}
+
+@keyframes happy_birthday{
+    0% {
+        color: fuchsia;
+        text-shadow: 5px 5px 25px fuchsia, -5px -5px 25px fuchsia;
+    }
+    10% {
+        color: skyblue;
+        text-shadow: 5px 5px 25px skyblue, -5px -5px 25px skyblue;
+    }
+    20% {
+        color: aqua;
+        text-shadow: 5px 5px 25px aqua, -5px -5px 25px aqua;
+    }
+    30% {
+        color: red;
+        text-shadow: 5px 5px 25px red, -5px -5px 25px red;
+    }
+    40% {
+        color: lime;
+        text-shadow: 5px 5px 25px lime, -5px -5px 25px lime;
+    }
+    50% {
+        color: cyan;
+        text-shadow: 5px 5px 25px cyan, -5px -5px 25px cyan;
+    }
+    70% {
+        color: orange;
+        text-shadow: 5px 5px 25px orange, -5px -5px 25px orange;
+    }
+    100% {
+        color: #ff001e;
+        text-shadow: 5px 5px 25px #ff001e, -5px -5px 25px #ff0001e;
+    }
+ }
